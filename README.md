@@ -7,14 +7,14 @@ Pre-trained Models for Intracranial Aneurysm Segmentation and Detection.
 ![image](https://user-images.githubusercontent.com/125511615/219178878-55cfbc53-fd9f-4e4c-9b50-8cd96ae59d9c.png)
 
 
-How to Use:
+How to Use: <br />
 
-1- copy a TOF-MRA image into folder "input/pre".
+1- copy a TOF-MRA image into folder "input/pre". <br />
 
-2- Run the follwoing codes: 
-cd nnUNet
-pip install -e .
-cd ..
+2- Run the follwoing codes: <br />
+cd nnUNet    <br />
+pip install -e .   <br />
+cd ..   <br />
 python ADAM_Preprocess.py --input_path ./input
 
 3- Download the models and put them into the follwoing path:
