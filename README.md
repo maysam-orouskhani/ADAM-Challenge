@@ -15,18 +15,18 @@ How to Use: <br />
 cd nnUNet    <br />
 pip install -e .   <br />
 cd ..   <br />
-python ADAM_Preprocess.py --input_path ./input
+python ADAM_Preprocess.py --input_path ./input <br />
 
-3- Download the models and put them into the follwoing path:
-"nnUNet/nnunet/TrainedModels/nnUNet/3d_fullres/Task101_SCGM/
+3- Download the models and put them into the follwoing path:  <br />
+"nnUNet/nnunet/TrainedModels/nnUNet/3d_fullres/Task101_SCGM/  <br />
 
-4- Run the follwing codes: 
-cd nnUNet/nnunet
-nnUNet_predict -i ../../input_preprocess -o ../../seg_initial -m 3d_fullres -t Task600_ADAM --disable_tta
-cd ../../
+4- Run the follwing codes:   <br />
+cd nnUNet/nnunet  <br />
+nnUNet_predict -i ../../input_preprocess -o ../../seg_initial -m 3d_fullres -t Task600_ADAM --disable_tta  <br />
+cd ../../   <br />
 
-5- Do the post-precessing as follwos: 
-python ADAM_Postprocess.py --save_path ./output
+5- Do the post-precessing as follwos:  <br />
+python ADAM_Postprocess.py --save_path ./output  <br />
 
 *Find the segmmented image in "output"
 
