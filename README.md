@@ -18,7 +18,7 @@ cd ..   <br />
 python ADAM_Preprocess.py --input_path ./input <br />
 
 3- Download the models and put them into the follwoing path:  <br />
-"nnUNet/nnunet/TrainedModels/nnUNet/3d_fullres/Task101_SCGM/  <br />
+"nnUNet/nnunet/TrainedModels/nnUNet/3d_fullres/Task101_SCGM/nnUNetTrainerV2__nnUNetPlansv2.1/  <br />
 
 4- Run the follwing codes:   <br />
 cd nnUNet/nnunet  <br />
