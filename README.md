@@ -1,6 +1,5 @@
 # ADAM-Challenge
 Rank 4 in ADAM Challenge Live Leaderboard (Aneurysm Detection And segMentation Challenge) for the Segmentation Task. <br />
-Pre-trained Models for Intracranial Aneurysm Segmentation and Detection.  <br />
 
 To download the models, please feel free to contact me via maysam@uw.edu   <br />
 
